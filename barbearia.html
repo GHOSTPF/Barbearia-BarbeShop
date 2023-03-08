@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="barbearia.css" media="screen" />
+        <link rel="icon" type="image/jpg" href="icon.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbearia Guedes</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-banner">
+            </div>
+            
+        </header>
+        <section class="content">
+            <div class="container">
+                <article>
+                    <p>Localizada no Presidente Medici a Barbearia Guedes traz para o mercado o que há de melhor para seu corte de cabelo e barba. Fundada em 2015, a Barbearia Guedes já é destaque nos bairros e conquista novos clientes a cada dia.<br>
+                        <br>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes,contando com varios beneficios como.<br>
+                    </p>
+                    <ul>
+                        <li>Pontualidade</li>
+                        <li>Bem Organizado</li>
+                        <li>Ambiente Limpo</li>
+                        <li>Profissionais Dedicados</li>
+                        <li>E um ótimo atendimento ao cliente</li>
+                    </ul>
+                    <h2>Local</h2>
+                </article>
+                <aside>
+                    <img src="marcos1.jpg" width="340" height="350" align="right" style="border-radius: 16rem" aria-live="off">
+                </aside>
+            </div>
+            <div style='overflow:hidden;height: 350px;width: 100%;color: #0095eb'>
+                <div id='gmap_canvas' style='height:300px;width:100%;'></div>
+                <style>#gmap_canvas img{max-width:none!important;background:none!important}.gm-ui-hover-effect{display: none!important;}</style>
+            </div>
+        </section>
+        <div class="container">
+                <ul class="products">
+                    <li>
+                        <h2>Cabelo</h2>
+                        <img src="cabelo.jpg" alt="img-cabelo">
+                        <p class="description">Cortes de Cabelos e outras variedades</p>
+                        <p class="price">🪒 Navalhado R$ 20<br>
+                            🪒 Degradê R$17<br>
+                            🪒 Social R$13<br>
+                            🪒 Desenho R$10<br>
+                            🪒 Pigmentação R$10<br>
+                            🪒 Luzes - Platinado R$70<br>
+                            🪒 Combo Navalhado R$35<br>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>Sobrancelha</h2>
+                        <img src="sobrancelha.jpg" alt="img-barba">
+                        <p class="description">Sobrancelha na navalha</p>
+                        <p class="price">🪒 Sobrancelha R$05<br>
+                            🪒 Sobrancelha CBL R$03<br>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>Barba</h2>
+                        <img src="cabelo+barba.jpg" alt="img-cabelo+barba">
+                        <p class="description">Pacotes de Barba</p>
+                        <p class="price">🪒 Barba R$15<br>
+                            🪒 Degradê na Barba R$17<br>
+                        </p>
+                    </li>
+                </ul>
+                <div class="footer-basic1">
+                    <div class="kodfun-galeri">
+                        <div style="background-image: url('cab1.jpg');"></div>
+                        <div style="background-image: url('cab2.jpg');"></div>
+                        <div style="background-image: url('cab3.jpg');"></div>
+                        <div style="background-image: url('cab4.jpg');"></div>
+                        <div style="background-image: url('cab5.jpg');"></div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <main id="fix">
+                        <form action="#">
+                            <h2>Agendamento</h2>
+                            <label for="name">Nome: </label>
+                            <input type="text" id="name" class="input-basic" placeholder="Digite seu nome aqui" required="">
+                            <label for="email">Email: </label>
+                            <input type="text" id="email" class="input-basic" placeholder="email@dominio.com" required="">
+                            <label for="phone">Telefone: </label>
+                            <input type="number" id="phone" class="input-basic" placeholder="(XX)XXXXX-XXXX" required="">
+                            <label for="mensage">Mensagem: </label>
+                            <textarea id="mensage" cols="70" rows="10" class="input-basic"></textarea>
+                            <fieldset>
+                                <legend>Como prefere o nosso contato?</legend>
+                                <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email"> Email</label>
+                                <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone"> Telefone</label>
+                                <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked=""> WhatsApp</label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Qual horário prefere ser atendido?</legend>
+                                <select>
+                                    <option>Manhã</option>
+                                    <option>Tarde</option>
+                                    <option>Noite</option>
+                                </select>
+                            </fieldset>
+                            <label class="checkbox"><input type="checkbox" checked="">Gostaria de receber novidades por email?</label>
+                            <button class="btn">Enviar</button> 
+                        </form>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Dia</th>
+                                    <th>Horário</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Segunda a Sexta</td>
+                                    <td>9h as 19h</td>
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td>Sábado e Domingo</td>
+                                    <td>10h as 17h</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </main>
+                </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+                </div>
+                <footer class="footer-basic">
+                    <div class="container">
+                        <div class="social"><a href="https://www.instagram.com/a_guedesbarbearia/"><i class="icon ion-social-instagram"></i></a><a href="https://wa.me/5583999797388"><i class="icon ion-social-whatsapp"></i></a><a href="https://twitter.com/Barbalho_______"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/profile.php?id=100011282679552"><i class="icon ion-social-facebook"></i></a></div>
+                        <ul class="list-inline"><li class="list-inline-item"><a href="barbearia.html">Home</a></li>
+                            <li class="list-inline-item"><a href="#">Serviços</a></li>
+                            <li class="list-inline-item"><a href="#">Termos</a></li>
+                            <li class="list-inline-item"><a href="#">Politica de Privacidade</a></li>
+                        </ul>
+                        <p class="copyright">Barbearia Guedes © 2023</p>
+                        </div>
+                </footer>
+                <script src='http://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54'></script>
+                <script type='text/javascript'>
+                function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-7.1854607,-34.8865886),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-7.1854607,-34.8865886)});infowindow = new google.maps.InfoWindow({content:'Barbearia Guedes'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+                </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+                <script type="text/javascript" src="barbearia.js"></script>
+    </body>
+</html>
